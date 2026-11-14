@@ -62,7 +62,9 @@ Não foi localizado arquivo DOCX para teste de leitura. A tentativa de gerar doc
 
 ## 4. Integrações Microsoft e navegador
 
-Foram localizadas opções de conexão para Microsoft Teams, SharePoint e Outlook (e-mail e calendário), além de referência ao Power BI em pesquisa de catálogo. Não foi comprovada instalação ou autenticação desses serviços nesta sessão.
+Foi realizada nova pesquisa no catálogo de plugins para Outlook Email, Outlook Calendar, Teams, SharePoint e Power BI. Os cinco resultados pertinentes retornaram `installed: false`, embora estivessem disponíveis para conexão. Portanto, não há autenticação operacional comprovada nesta sessão. A conexão exige ação do usuário e eventual autenticação no provedor.
+
+A tentativa de consultar fontes de eventos de automações por uma ação específica retornou erro HTTP 404 antes da execução. Isso não invalida a consulta de registros de automações, que respondeu normalmente, mas impede atestar a enumeração dessas fontes por essa operação.
 
 Não foi identificada integração operacional com Word, Excel, PowerPoint ou OneDrive. Isso não prova incapacidade universal do produto; registra apenas a ausência de comprovação no ambiente examinado.
 
