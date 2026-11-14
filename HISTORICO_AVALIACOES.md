@@ -69,6 +69,12 @@ A publicação documental comprova as operações específicas de criação e le
 
 Nenhum e-mail foi enviado. O evento temporário foi excluído após a confirmação. Nenhum design foi salvo ou publicado. Nenhuma automação foi executada ou modificada. A atualização GitHub limitou-se aos documentos de avaliação do próprio laboratório.
 
+### Verificações adicionais de conectores e automações
+
+- 🔵 **Microsoft:** nova pesquisa de catálogo para Outlook Email, Outlook Calendar, Teams, SharePoint e Power BI. Todos os cinco resultados retornaram `installed: false`; conexão/autenticação depende de ação do usuário.
+- 🟢 **Automações:** consulta de registros confirmou três rotinas habilitadas. Nenhuma foi executada, pois são rotinas reais e o teste poderia disparar ações fora do escopo da auditoria.
+- 🟡 **Fontes de eventos de automação:** a ação específica de enumeração retornou HTTP 404 antes da execução; a consulta geral de registros continuou funcional.
+
 ### Conclusão da bateria
 
 Os testes ampliaram a comprovação de leitura e de operações documentais. O Calendar teve criação e exclusão temporária confirmadas; o Canva teve abertura/cancelamento de transação confirmados, mas não salvamento. Permanecem pendentes as operações que exigem insumo, ferramenta disponível, conexão ou aprovação específica.
