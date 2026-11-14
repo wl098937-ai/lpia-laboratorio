@@ -19,7 +19,7 @@
 | Arquivos PDF e Excel | 🟢 VERDE | Leitura aprovada |
 | Arquivos Word | 🔵 AZUL | Não havia arquivo DOCX de teste disponível |
 | Geração de DOCX/XLSX/PDF | 🟡 AMARELO | Teste bloqueado por indisponibilidade temporária da ferramenta de análise de dados |
-| Microsoft Teams, SharePoint e Outlook | 🔵 AZUL | Encontrados no catálogo; instalação/autenticação não comprovadas |
+| Microsoft Teams, SharePoint, Outlook e Power BI | 🔵 AZUL | Catálogo consultado; os quatro conectores retornaram `installed: false` |
 | Microsoft Edge / controle local | 🔴 VERMELHO | Controle local não identificado nesta sessão |
 
 ## Legenda dos indicadores
