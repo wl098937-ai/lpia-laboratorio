@@ -49,6 +49,30 @@ Não foram enviados e-mails, criados eventos, publicados designs, alterados arqu
 
 A publicação documental comprova as operações específicas de criação e leitura realizadas neste repositório. Não equivale a um teste geral de todas as operações GitHub, nem comprova edição, exclusão, gerenciamento de branches ou permissões em outros repositórios.
 
+## 14/11/2026 — Bateria complementar de testes funcionais
+
+**Escopo:** Gmail, Google Calendar, Canva, Automações e conferência da documentação GitHub.
+
+### Resultados
+
+- 🟢 **Gmail:** recuperação de uma mensagem em formato integral HTML confirmada; corpo HTML retornado; nenhum anexo. Envio não testado.
+- 🟢 **Google Calendar:** calendários consultados; consulta de eventos retornou zero itens, sem permitir inferir que a agenda esteja vazia. Evento temporário privado, sem convidados e sem notificações, criado e imediatamente excluído; retorno final indicou cancelamento.
+- 🟢 **Canva:** conteúdo textual e páginas/miniaturas da apresentação de 19 páginas recuperados. Transação de edição aberta e cancelada sem salvar; nenhuma alteração foi aplicada.
+- 🟢 **Automações:** consulta de registros e instruções confirmada; nenhuma rotina foi executada ou modificada.
+- 🟢 **GitHub:** painel e histórico atualizados após consulta do estado anterior; ambos relidos para verificação.
+- 🟡 **Geração de arquivos:** permanece bloqueada pela indisponibilidade temporária da ferramenta de análise de dados. Não foi possível gerar/validar DOCX, XLSX e PDF nesta bateria.
+- 🔵 **Word:** não foi localizado DOCX não sensível para teste de leitura.
+- 🔵 **Microsoft:** Outlook, Teams, SharePoint e Power BI aparecem como opções disponíveis no catálogo, mas não instaladas/conectadas nesta sessão.
+- 🔴 **Edge local:** controle do navegador/computador continua não identificado.
+
+### Integridade e cautelas
+
+Nenhum e-mail foi enviado. O evento temporário foi excluído após a confirmação. Nenhum design foi salvo ou publicado. Nenhuma automação foi executada ou modificada. A atualização GitHub limitou-se aos documentos de avaliação do próprio laboratório.
+
+### Conclusão da bateria
+
+Os testes ampliaram a comprovação de leitura e de operações documentais. O Calendar teve criação e exclusão temporária confirmadas; o Canva teve abertura/cancelamento de transação confirmados, mas não salvamento. Permanecem pendentes as operações que exigem insumo, ferramenta disponível, conexão ou aprovação específica.
+
 ## Próxima revisão
 
 Atualizar este histórico somente após novos testes ou alteração comprovada nas conexões, permissões ou ferramentas. Registrar separadamente operações de leitura, criação, edição, exclusão e publicação.
