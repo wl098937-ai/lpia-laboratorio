@@ -11,11 +11,11 @@
 
 | Área | Indicador | Resultado verificado |
 |---|---|---|
-| Gmail | 🟢 VERDE | Consulta de metadados/trechos e criação de rascunho aprovadas; envio não testado |
-| Google Calendar | 🟢 VERDE / 🟡 AMARELO | Consulta respondida; criação de evento identificada, mas não testada |
-| Canva | 🟢 VERDE / 🟡 AMARELO | Leitura e estrutura de edição verificadas; transação de teste cancelada; salvamento não testado |
-| GitHub | 🟢 VERDE | Leitura aprovada; criação de oito arquivos documentais e releitura posterior também confirmadas |
-| Automações | 🟢 VERDE / 🟡 AMARELO | Consulta de registros aprovada; criação, alteração e execução não testadas |
+| Gmail | 🟢 VERDE | Consulta de metadados e leitura integral do corpo em HTML confirmadas; envio não testado |
+| Google Calendar | 🟢 VERDE | Consulta, criação de evento temporário e exclusão posterior confirmadas |
+| Canva | 🟢 VERDE / 🟡 AMARELO | Leitura de texto e páginas; transação de edição aberta e cancelada sem salvar; salvamento não testado |
+| GitHub | 🟢 VERDE | Leitura, criação de oito arquivos e atualização de dois documentos; releitura confirmada |
+| Automações | 🟢 VERDE / 🟡 AMARELO | Consulta de registros e instruções aprovada; execução e alterações não testadas |
 | Arquivos PDF e Excel | 🟢 VERDE | Leitura aprovada |
 | Arquivos Word | 🔵 AZUL | Não havia arquivo DOCX de teste disponível |
 | Geração de DOCX/XLSX/PDF | 🟡 AMARELO | Teste bloqueado por indisponibilidade temporária da ferramenta de análise de dados |
@@ -46,7 +46,7 @@ Indicadores de tendência, quando houver avaliações futuras: ↑ evolução po
 
 ## Escopo e cautelas
 
-Os testes funcionais originais priorizaram consultas, leitura e simulações. Nenhuma mensagem foi enviada, evento foi criado, design foi publicado, arquivo preexistente foi alterado ou automação foi modificada durante aquela avaliação.
+Na avaliação inicial, os testes priorizaram consultas, leitura e simulações. Na bateria complementar, foi criado um evento temporário privado no Google Calendar, sem notificações, e imediatamente excluído após a confirmação. Nenhum e-mail foi enviado, nenhum design foi alterado ou publicado e nenhuma automação foi modificada.
 
 Em etapa documental posterior, foram criados oito arquivos no repositório público e cada um foi relido para verificação. Essa operação comprova a criação e leitura dos arquivos documentais no GitHub, não a aprovação de todas as modalidades de escrita, edição ou exclusão em quaisquer repositórios.
 
@@ -55,6 +55,7 @@ A existência de uma ferramenta no catálogo não comprova que uma conta esteja 
 ## Última atualização documental
 
 - **Avaliação funcional de referência:** 14 de novembro de 2026
+- **Bateria complementar:** leitura integral HTML no Gmail; criação e exclusão de evento temporário no Calendar; leitura de conteúdo/páginas e abertura/cancelamento de transação no Canva; inspeção de automações.
 - **Ambiente:** uma sessão do ChatGPT
 - **Natureza:** diagnóstico funcional e documentação de resultados
 - **Etapa documental posterior:** publicação e releitura de oito arquivos
