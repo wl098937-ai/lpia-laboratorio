@@ -6,11 +6,11 @@ Esta matriz resume o estado observado na sessão avaliada. “Identificado” n�
 
 | Serviço | Status | Evidência observada | Limite atual |
 |---|---|---|---|
-| Gmail | 🟢 VERDE | Consulta de etiquetas/metadados/trecho e criação de rascunho | Envio e leitura integral não testados |
-| Google Calendar | 🟢 VERDE | Consulta de calendários e eventos respondeu | Criação/edição/cancelamento não testados |
-| Canva | 🟢 VERDE | Listagem, leitura de design e abertura/cancelamento de transação | Salvamento e publicação não testados |
-| GitHub | 🟢 VERDE | Leitura de repositório, metadados, diretórios e arquivo | Escrita não testada na avaliação anterior |
-| Automações | 🟢 VERDE | Consulta de registros e histórico | Criação, alteração e execução não testadas |
+| Gmail | 🟢 VERDE | Consulta e recuperação do corpo integral HTML de mensagem; rascunho criado em teste anterior | Envio/resposta não testados |
+| Google Calendar | 🟢 VERDE | Consulta e criação/exclusão de evento temporário privado, sem notificações | Edição de evento preexistente não testada |
+| Canva | 🟢 VERDE / 🟡 AMARELO | Leitura de texto/páginas e transação aberta/cancelada | Salvamento de edição não testado |
+| GitHub | 🟢 VERDE | Leitura, criação de oito arquivos e atualização de dois documentos, com releitura | Outras modalidades de escrita/gestão não testadas |
+| Automações | 🟢 VERDE / 🟡 AMARELO | Consulta de registros e instruções | Execução e alterações não testadas |
 | Files — PDF | 🟢 VERDE | Extração/leitura de conteúdo de PDF | Escopo limitado aos arquivos examinados |
 | Files — Excel | 🟢 VERDE | Leitura de planilha com seis abas | Edição não testada |
 | Files — Word | 🔵 AZUL | Não havia DOCX disponível para teste | Requer arquivo de teste |
