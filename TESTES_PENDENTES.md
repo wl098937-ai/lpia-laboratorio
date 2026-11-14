@@ -12,8 +12,8 @@ Os itens abaixo representam oportunidades de validação posterior. Nenhum deles
 | Alta | Gerar DOCX, XLSX e PDF | 🟡 Bloqueado | Ferramenta de análise de dados disponível e arquivos demonstrativos validados |
 | Média | Salvar edição de teste no Canva | 🟡 Pendente | Leitura e transação aberta/cancelada foram aprovadas; salvar exige prévia e aprovação específica do conteúdo |
 | Média | Escrita documental no GitHub | 🟢 Concluído | Criação de oito arquivos e atualização de dois documentos no repositório do laboratório, com releitura confirmatória |
-| Média | Executar automação de teste | 🟡 Pendente | Consulta de registros/instruções aprovada; execução não realizada para evitar disparar rotinas reais sem seleção individual |
-| Média | Conectar Teams/SharePoint/Outlook | 🔵 Aguardando conexão | Usuário concluir conexão/autenticação e ferramenta confirmar acesso |
+| Média | Executar automação de teste | 🟡 Pendente | Há três rotinas reais habilitadas; não executadas para evitar disparos externos sem selecionar e aprovar uma rotina específica |
+| Média | Conectar Teams/SharePoint/Outlook/Power BI | 🔵 Aguardando conexão | Catálogo confirmou `installed: false`; usuário precisa iniciar conexão/autenticação e ferramenta confirmar acesso |
 | Média | Verificar Power BI | 🔵 Aguardando conexão | Confirmar existência do conector e testar consulta autorizada |
 | Baixa | Reavaliar controle do Edge/desktop | 🔴 Não identificado | Verificar disponibilidade de recurso específico em sessão compatível |
 
