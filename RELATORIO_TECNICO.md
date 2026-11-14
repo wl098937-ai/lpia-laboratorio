@@ -26,33 +26,33 @@ As setas de tendência (↑, →, ↓) ficam reservadas à comparação entre av
 
 ### 3.1 Gmail — 🟢 Consulta e rascunho aprovados
 
-Foram consultadas etiquetas e informações de uma mensagem em formato mínimo, com metadados e trecho da mensagem. Também foi criado um rascunho de teste sem destinatário e sem envio.
+Foram consultadas etiquetas e informações de mensagens. Em teste complementar, uma mensagem autorizada foi recuperada em formato integral HTML, com corpo disponibilizado pela ferramenta. A recuperação retornou HTML (não texto simples) e não havia anexos. Também permanece registrado o teste anterior de criação de rascunho sem destinatário e sem envio.
 
-**Limites:** a consulta realizada não equivaleu à leitura integral do corpo da mensagem. O envio de e-mail não foi testado.
+**Limites:** envio, resposta e encaminhamento de e-mails não foram testados.
 
 ### 3.2 Google Calendar — 🟢 Consulta; 🟡 criação pendente
 
-Foram consultados calendários e eventos. Uma consulta específica retornou zero eventos, resultado que não permite concluir que a agenda esteja vazia.
+Foram consultados calendários e eventos; a consulta realizada retornou zero eventos, resultado que não permite concluir que a agenda esteja vazia. Em seguida, foi criado um evento temporário, privado, sem convidados e sem notificações, na agenda principal. A ferramenta confirmou a criação; o evento foi imediatamente excluído, com retorno de status cancelado.
 
-A ferramenta de criação de eventos foi identificada, mas não foi utilizada. Nenhum evento de teste foi criado.
+**Resultado:** 🟢 consulta, criação e exclusão de evento temporário aprovadas. Nenhum evento de teste permaneceu na agenda.
 
 ### 3.3 Canva — 🟢 leitura e estrutura de edição; 🟡 salvamento pendente
 
-Foram listados designs, acessado um projeto existente, consultados metadados e conteúdo textual e identificados elementos editáveis. Uma transação de edição de teste foi aberta e posteriormente cancelada.
+Foi localizada a apresentação existente “Aula 14 - Rescisão Indireta do Contrato de Trabalho”, com 19 páginas. A integração recuperou texto de páginas, miniaturas e estrutura editável. Uma nova transação de edição foi aberta e imediatamente cancelada, sem aplicação de alterações.
 
-Nenhuma alteração foi salva ou publicada. O salvamento de edição permanece sem validação.
+**Resultado:** 🟢 leitura de conteúdo/páginas e abertura/cancelamento de transação aprovadas; 🟡 salvamento de edição não testado. Nenhum design foi alterado ou publicado.
 
 ### 3.4 GitHub — 🟢 leitura aprovada; 🟡 escrita pendente na avaliação anterior
 
-Foram confirmadas consultas de repositórios, metadados, branch padrão, estrutura de diretórios e conteúdo de arquivo. A leitura de um arquivo em repositório privado foi respondida pela integração.
+Foram confirmadas consultas de repositórios, metadados, branch padrão, estrutura de diretórios e conteúdo de arquivo. Em etapa posterior autorizada, foram criados oito arquivos documentais e, em seguida, o README e o histórico foram atualizados. Os arquivos e as duas atualizações foram relidos para conferência.
 
-Na avaliação anterior, não foram criados arquivos, commits ou branches, nem realizadas exclusões. A autorização posterior para publicar este conjunto documental no repositório público é uma etapa separada; seu resultado deve ser registrado somente após confirmação das operações de publicação.
+**Resultado:** 🟢 leitura, criação de arquivos e atualização de documentos aprovadas no repositório público do laboratório. Não se trata de aprovação geral de todas as operações GitHub.
 
 ### 3.5 Automações — 🟢 consulta; 🟡 alterações pendentes
 
-Foram consultados registros de automações, estados, instruções e histórico. A listagem indicou atividades ativas e pausadas. Foi observada possível sobreposição entre duas revisões semanais.
+Foi realizada nova consulta somente de leitura aos registros de automações e às instruções salvas. A resposta confirmou a recuperação dos registros. Nenhuma automação foi executada, criada, excluída, pausada ou modificada.
 
-Não foram criadas, excluídas, executadas manualmente ou modificadas automações.
+**Resultado:** 🟢 consulta de registros e instruções; 🟡 execução e alteração permanecem sem teste.
 
 ### 3.6 Arquivos — 🟢 PDF e Excel; 🔵 Word; 🟡 geração
 
@@ -84,7 +84,7 @@ Essas quantidades representam ferramentas listadas no ambiente examinado, não n
 
 ## 7. Conclusão
 
-A sessão demonstrou capacidade funcional de consulta e leitura em diversos serviços, além de criação de rascunho no Gmail. Outras operações foram identificadas, mas permanecem sem teste conclusivo. As integrações Microsoft não foram comprovadas como conectadas e o controle do Edge local não foi identificado.
+A bateria complementar ampliou a comprovação: Gmail recuperou corpo integral HTML; Google Calendar permitiu criar e excluir um evento temporário; Canva recuperou conteúdo e páginas e abriu/cancelou uma transação; GitHub confirmou criação e atualização documental. A consulta de automações também foi repetida com sucesso. Permanecem pendentes o envio de e-mail, o salvamento de edição no Canva, a execução de automações, leitura de DOCX e geração de arquivos enquanto a ferramenta estiver indisponível. As integrações Microsoft seguem sem conexão comprovada e o controle local do Edge não foi identificado.
 
 A avaliação é, portanto, **positiva para determinadas operações de leitura e consulta, mas parcial quanto à execução de alterações e à integração Microsoft**. Cada recurso deve manter seu próprio status até que haja evidência de teste específico.
 
