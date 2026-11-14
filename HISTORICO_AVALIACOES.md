@@ -82,3 +82,31 @@ Os testes ampliaram a comprovação de leitura e de operações documentais. O C
 ## Próxima revisão
 
 Atualizar este histórico somente após novos testes ou alteração comprovada nas conexões, permissões ou ferramentas. Registrar separadamente operações de leitura, criação, edição, exclusão e publicação.
+
+
+## 14/11/2026 — Consolidação geral multiplataforma
+
+**Motivo:** ampliar a apresentação da auditoria para refletir sua finalidade prática e o escopo estratégico do LPIA, evitando que o diagnóstico específico do Microsoft Edge seja confundido com a totalidade do trabalho.
+
+### Escopo geral explicitado
+
+A auditoria passa a ser apresentada como avaliação de ferramentas e fluxos de trabalho assistidos por IA para apoiar organização pessoal e agenda, atividades profissionais e administrativas, estudos jurídicos e revisão técnica, pesquisa, preparação de documentos e relatórios, acompanhamento de economia/mercado financeiro/B3, organização de ideias e difusão de conteúdo.
+
+### Plataformas e ressalvas
+
+- **ChatGPT/OpenAI:** ambiente principal efetivamente examinado nesta bateria, com operações específicas em conectores e ferramentas descritas nos relatórios.
+- **Google Gemini:** incluído no desenho de colaboração e no escopo estratégico; os registros consultados não demonstram teste funcional executado nesta bateria.
+- **Microsoft Copilot:** incluído como possibilidade de produtividade no ecossistema Microsoft; os registros consultados não demonstram teste funcional específico nesta bateria.
+- **Microsoft Edge:** relatório específico preservado como uma frente da auditoria; controle local não comprovado.
+- **GitHub e serviços conectados:** resultados mantidos conforme as evidências funcionais registradas nos documentos técnicos.
+
+### Alterações documentais
+
+1. Criado `RELATORIO_GERAL_AUDITORIA.md`, documento principal de consolidação multiplataforma.
+2. Atualizado `README.md` para apresentar a motivação, finalidade prática, plataformas contempladas, indicadores e links dos documentos.
+3. Mantidos os relatórios técnicos específicos e a documentação institucional existentes.
+4. Nenhum resultado de teste foi inventado ou atribuído ao Gemini ou ao Copilot sem evidência.
+
+### Limite metodológico
+
+Esta consolidação amplia o enquadramento e a apresentação do trabalho, mas não transforma plataformas apenas previstas em plataformas testadas. Gemini e Copilot permanecem classificados como não testados nos registros consultados, até que existam evidências funcionais próprias.
