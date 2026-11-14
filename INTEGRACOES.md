@@ -15,11 +15,11 @@ Esta matriz resume o estado observado na sessão avaliada. “Identificado” n�
 | Files — Excel | 🟢 VERDE | Leitura de planilha com seis abas | Edição não testada |
 | Files — Word | 🔵 AZUL | Não havia DOCX disponível para teste | Requer arquivo de teste |
 | Geração DOCX/XLSX/PDF | 🟡 AMARELO | Tentativa bloqueada por indisponibilidade da ferramenta de análise de dados | Repetir quando disponível |
-| Microsoft Teams | 🔵 AZUL | Opção encontrada no catálogo | Instalação e autenticação não confirmadas |
-| SharePoint | 🔵 AZUL | Opção encontrada no catálogo | Instalação e autenticação não confirmadas |
-| Outlook E-mail | 🔵 AZUL | Opção encontrada no catálogo | Instalação e autenticação não confirmadas |
-| Outlook Calendar | 🔵 AZUL | Opção encontrada no catálogo | Instalação e autenticação não confirmadas |
-| Power BI | 🔵 AZUL | Referência localizada em pesquisa de catálogo | Conexão e operação não comprovadas |
+| Microsoft Teams | 🔵 AZUL | Catálogo consultado; `installed: false` | Conexão/autenticação pendentes |
+| SharePoint | 🔵 AZUL | Catálogo consultado; `installed: false` | Conexão/autenticação pendentes |
+| Outlook E-mail | 🔵 AZUL | Catálogo consultado; `installed: false` | Conexão/autenticação pendentes |
+| Outlook Calendar | 🔵 AZUL | Catálogo consultado; `installed: false` | Conexão/autenticação pendentes |
+| Power BI | 🔵 AZUL | Catálogo consultado; `installed: false` | Conexão e operação não comprovadas |
 | Word / Excel / PowerPoint | 🔴 VERMELHO* | Integração direta não confirmada nesta sessão | Não confundir com geração local de arquivos |
 | OneDrive | 🔴 VERMELHO* | Integração direta não confirmada nesta sessão | Conexão não comprovada |
 | Microsoft Edge local | 🔴 VERMELHO | Controle local não identificado | Web pública não equivale a controle do navegador |
